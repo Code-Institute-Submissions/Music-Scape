@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+h1{
+    margin-left: 20px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.logo-music{
+    color: #951B06;
+    padding: 0;
+}
+/*-------------------------------Nav*/
+
+.col-3{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#nav{
+    margin: 0;
+    width: 100%;
+}
+
+#nav li{
+    font-size: 14px;
+}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
+    background-color: #951B06;
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    height: 120px;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0rem;
+}
+
+.hvr-fade:before{
+    color: #000;
+}
+
+.hvr-fade:before:after{
+    color: chartreuse;
+}
+
+
