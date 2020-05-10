@@ -2,26 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
+.wrapper-red{
+    width: 100%;
+    background-color: #951B06;
+}
 
-h1{
-    margin-left: 20px;
+.wrapper-white{
+    width: 100%;
+    background-color: #fff; 
+}
+
+/*-------------------------------Header*/
+
+h1 {
+    margin: 20px  0 20px 10%;
     font-family: "Playfair Display", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 400;
 }
 
 .logo-music{
     color: #951B06;
     padding: 0;
 }
+
+
 /*-------------------------------Nav*/
 
 .col-3{
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0;
 }
 
 #nav{
-    margin: 0;
-    width: 100%;
+    margin: 0 10% 0 10%;
+    width: 80%;
 }
 
 #nav li{
@@ -29,17 +50,18 @@ h1{
 }
 
 .menuitem{
-    height: 120px;
+    height: 60px;
     text-align: center;
     background-color: #951B06;
 }
 
 .menuitem a{
     width: 100%;
+    padding-top: 10px;
     text-decoration: none;
     font-size: 20px;
-    color: #000;
-    height: 120px;
+    color: #fff;
+    height: 60px;
     font-family: "Roboto Slab", sans-serif;
 }
 
@@ -47,12 +69,31 @@ h1{
     margin-right: 0rem;
 }
 
-.hvr-fade:before{
-    color: #000;
+.hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
+    background-color: #bf260b;
+    color: #fff;
 }
 
-.hvr-fade:before:after{
-    color: chartreuse;
+/*------------------------------- Footer*/
+
+.container-fluid{
+    margin: 0;
+    padding: 0 10% 0 10%;
 }
 
+.footer-heading{
+    margin-left: 0;
+    padding: 0;
+    color: #fff;
+}
 
+.social-links li a i{
+    color: #fff;
+    background-color: #8f8f8f;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto 0;
+    margin-top: 5px;
+}
