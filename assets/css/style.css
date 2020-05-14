@@ -34,7 +34,7 @@ h6{
 }
 
 
-/*-------------------------------Nav*/
+/*-------------------------------Nav/Social*/
 
 .col-3{
     padding: 0;
@@ -66,7 +66,7 @@ h6{
 }
 
 .list-inline-item:not(:last-child) {
-    margin-right: 0rem;
+    margin-right: 0;
 }
 
 /*------------------------------- Fade*/
@@ -111,3 +111,10 @@ h6{
     color: #bf260b;
 } 
 
+@media (max-width: 767px){
+    .footer-heading,
+    .social-links,
+    .address{
+        text-align: center;
+    }
+}
