@@ -41,7 +41,7 @@ h6{
 }
 
 #nav{
-    margin: 0 10% 0 10%;
+    margin: 0 10%;
     width: 80%;
 }
 
@@ -69,7 +69,7 @@ h6{
     margin-right: 0rem;
 }
 
-/*------------------------------- Hover*/
+/*------------------------------- Fade*/
 
 .hvr-fade:active, .hvr-fade:focus, .hvr-fade:hover {
     background-color: #bf260b;
@@ -80,7 +80,11 @@ h6{
 
 .container-fluid{
     margin: 0;
-    padding: 20% 10%;
+    padding: 5px 10%;
+}
+
+.container-fluid p{
+    font-weight: 600;
 }
 
 .footer-heading{
@@ -102,4 +106,8 @@ h6{
     padding: 12px 0;
     line-height: 7px;
 }
+
+.social-links i:hover{
+    color: #bf260b;
+} 
 
