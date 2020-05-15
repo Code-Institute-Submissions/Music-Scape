@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/*-------------------------------Wrappers*/
 
 .wrapper-red{
     width: 100%;
     background-color: #951B06;
+    
 }
 
 .wrapper-white{
     width: 100%;
     background-color: #fff; 
+    padding: 0 10%;
+}
+
+.wrapper-ivory{
+    width: 100%;
+    background-color: #fffef2; 
+    padding: 0 10%;
 }
 
 /*-------------------------------Header*/
 
 h1 {
-    margin: 20px  0 20px 10%;
+    margin-bottom: 20px;
     font-family: "Playfair Display", sans-serif;
 }
 
@@ -111,13 +120,33 @@ h6{
     color: #bf260b;
 } 
 
+/*------------------------------- Carousel*/
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-black{
+    color: #000;
+}
+
+/*------------------------------- Media Queries*/
+
 @media (max-width: 767px){
     .footer-heading,
     .social-links,
-    .address{
+    .address,
+    h1{
         text-align: center;
     }
+
+    .wrapper-ivory{
+    width: 100%;
+    background-color: #fffef2; 
+    padding: 0;
+    }
+
+    .carousel-item{
+    height: 250px;
+    }
 }
-
-/*------------------------------- Carousel*/
-
