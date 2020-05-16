@@ -130,6 +130,42 @@ h6{
     color: #000;
 }
 
+/*------------------------------- Latest Products*/
+
+.latest-products{
+    margin: 10px;
+    text-align: center;
+}
+
+.products{
+    border: 1px solid #000;
+    border-right: 0px;
+}
+
+.products h5{
+    border-bottom: 1px solid #000;
+}
+
+.products:last-of-type{
+    border: 1px solid #000;
+}
+
+.products:last-of-type h5{
+    border: 1px solid #000;
+}
+
+.product-image img{   
+    height: 250px;
+    width: 100%; 
+    padding: 10px;
+}
+
+.product-image:last-of-type img{   
+    height: 250px;
+    width: 100%; 
+    padding: 10px;
+}
+
 /*------------------------------- Media Queries*/
 
 @media (max-width: 767px){
