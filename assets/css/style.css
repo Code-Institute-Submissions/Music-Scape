@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+.row{
+    margin: 0;
+    padding: 0;
+}
+
 /*-------------------------------Wrappers*/
 
 .wrapper-red{
@@ -131,15 +136,24 @@ h6{
 
 /*------------------------------- Latest Products*/
 
-.latest-products{
+img{
+    margin: 0;
+    padding: 0;
+}
+
+.products-heading{
     margin: 10px;
+}
+
+.latest-products{
+    margin: 10px 10px 10px 0;
     text-align: center;
 }
 
 .product-image img{   
     height: 250px;
     width: 100%; 
-    padding: 10px;
+    padding: 10px 10px 10px 0;
 }
 
 /*------------------------------- Media Queries*/
@@ -160,5 +174,17 @@ h6{
 
     .carousel-item{
     height: 250px;
+    }
+
+    .product-image img{   
+    height: 250px;
+    width: 100%; 
+    padding: 0;
+    }
+
+    .col-6, 
+    .md-col-3{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
