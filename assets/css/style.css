@@ -204,6 +204,7 @@ img{
 /*------------------------------- Before You Buy*/
 
 .rental-features{
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -211,12 +212,22 @@ img{
     margin-bottom: 20px;
 }
 
-.buy-feature p, h5{
+.rental-features p, h5{
     margin-bottom: 20px;
 }
 
-.buy-feature p:last-of-type{
+.rental-features p:last-of-type{
     margin-bottom: 0;
+}
+
+.rental-features img:nth-child(odd){
+    width: 100%;
+    border-radius: 100% 3px 100% 3px;
+}
+
+.rental-features img:nth-child(even){
+    width: 100%;
+    border-radius: 3px 100% 3px 100%;
 }
 
 /*------------------------------- Media Queries*/
