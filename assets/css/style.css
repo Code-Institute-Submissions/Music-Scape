@@ -201,10 +201,10 @@ img{
     color: #bf260b;
 } 
 
-/*------------------------------- Before You Buy*/
+/*------------------------------- Rental*/
 
 .rental-features{
-    margin-top: 50px;
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -220,14 +220,18 @@ img{
     margin-bottom: 0;
 }
 
-.rental-features img:nth-child(odd){
+.rental-features img{
     width: 100%;
-    border-radius: 100% 3px 100% 3px;
+    padding: 10px;
+    margin-bottom: 25px;
 }
 
-.rental-features img:nth-child(even){
-    width: 100%;
-    border-radius: 3px 100% 3px 100%;
+.rental-features img:nth-of-type(odd){
+    border-radius: 0 50%;
+}
+
+.rental-features img:nth-of-type(even){
+    border-radius: 25% 75%;
 }
 
 /*------------------------------- Media Queries*/
