@@ -23,36 +23,11 @@ h6{
 /*-------------------------------Wrappers*/
 
 .wrapper-red{
-    width: 100%;
     background-color: #951B06;
     margin: 0; 
 }
 
-.wrapper-navy{
-    background-color: #2A219C;
-    color: #fff;
-    width: 100%;
-    margin: 0;
-    padding: 0 10%;
-    
-}
-
-.wrapper-maroon{
-    background-color: #8F254F;
-    width: 100%;
-    margin: 0;
-    padding: 0 10%;
-}
-
-.wrapper-white{
-    width: 100%;
-    background-color: #fff; 
-    margin: 0;
-    padding: 0 10%;
-}
-
 .wrapper-ivory{
-    width: 100%;
     background-color: #fffef2; 
     margin: 0;
     padding: 0 10%;
@@ -204,7 +179,8 @@ img{
 /*------------------------------- Rental*/
 
 .rental-features{
-    margin: 50px 0;
+    margin: 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -233,8 +209,6 @@ img{
 .rental-feature-even img{
     border-radius: 50% 0;
 }
-
-
 
 /*------------------------------- Media Queries*/
 
@@ -265,20 +239,14 @@ img{
         margin-left: 5%;
         margin-bottom: 3%;
     }
-
-    .rental-features img{
-    padding: 20px;
-    }
-
-    .rental-feature-odd img{
-    border-radius: 50% 50%;
-    }
-
-    .rental-feature-even img{
-    border-radius: 50% 50%;
-    }
     
     .rental-details{
     padding: 30px 20px;
-}
+    }
+
+    .rental-features img{
+    border-radius: 0;
+    padding: 0;
+    height: 250px
+    }
 }
