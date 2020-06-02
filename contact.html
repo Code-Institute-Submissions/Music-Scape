@@ -50,19 +50,14 @@
           <ul id="nav" class="list-inline menucontainer">
             <li class="col-6 col-md-3 list-inline-item menuitem">
               <a href="index.html" class="hvr-fade">Home</a>
-            </li>
-            <!---->
-            <li class="col-6 col-md-3 list-inline-item menuitem">
+            </li><!--
+            --><li class="col-6 col-md-3 list-inline-item menuitem">
               <a href="repair.html" class="hvr-fade">Repairs</a>
-            </li>
-            <!--
-					-->
-            <li class="col-6 col-md-3 list-inline-item menuitem">
+            </li><!--
+            --><li class="col-6 col-md-3 list-inline-item menuitem">
               <a href="rental.html" class="hvr-fade">Rentals</a>
-            </li>
-            <!--
-					-->
-            <li class="col-6 col-md-3 list-inline-item menuitem">
+            </li><!--
+             --><li class="col-6 col-md-3 list-inline-item menuitem">
               <a href="#" class="hvr-fade">Contact Us</a>
             </li>
           </ul>
@@ -72,21 +67,27 @@
 	</header>
 
 
-		<div class="wrapper-ivory">
-<!--Contact Form Start-->   
-			<form action="mailto:fabian.marsh00@gmail.com" method="post" >
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name">
+		<div class="wrapper-ivory auto">
+<!--Contact Form Start--> 
+            <div class="contact-form">
+                <div class="container">
+                    <form  action="mailto:fabian.marsh00@gmail.com" method="post" name="contact-us-form" id="contact-form">
 
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email" maxlength="40" required>
+                        <br>
 
-                <label for="message">Message:</label>
-                <input type="text" name="message" id="message" required>
+                        <label for="message">Message:</label> 
+                        <br>
+                        <textarea type="text" name="message" id="message" rows="7" required></textarea>
+                        <br>
 
-                <input type="submit" value="Send!">
-                <input type="reset" value="Clear">
-            </form>
+                        <input type="submit" id="submit" value="Send!">
+                        <input type="reset" value="Clear">
+                    </form>
+                </div> 
+            </div>
 <!--Contact Form End-->   		
         </div>
 
