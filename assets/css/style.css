@@ -113,11 +113,10 @@ img{
 }
 
 .latest-products h3{
-    margin: 20px;
+    padding: 20px;
 }
 
 .latest-products{
-    margin: 10px 10px 10px 0;
     text-align: center;
 }
 
@@ -219,7 +218,8 @@ img{
     padding: 50px;
 }
 
-#contact-form{
+#contact-us-form{
+    color: #fffef2;
     padding: 50px 0;
 }
 
@@ -241,10 +241,14 @@ img{
 }
 
 .container{
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .3);
     border-radius: 5px;
     width: auto;
     max-width: 600px;
+}
+
+.contact-banner{
+    background-image: url("../images/contact/contact-banner.webp");
 }
 
 /*------------------------------- Media Queries*/
