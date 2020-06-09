@@ -1,39 +1,41 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Stamford Music Shop
 
-Welcome FabianMarsh,
+This website is to help improve on an already existing website for a shop that is local where I live. For the sake of copyright names have been changed and text reworded. 
+The purpose of this is to help advertise the business more effectively with improved visuals, better organisation of information and finally a simpler less cramped interface for
+users to navigate the site. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+The reason I feel it is necessary to make this project is the original site is strangely broken with uneven negative space between containers, along with uneven positoned images. 
+These are a few of the issues I found and wish to improve upon. My overall aim is to design and make a website with the idea of better itself financely and socially. 
+Giving it a platform to better communicate with their consumers where they have full control. As well as a pleasant environment for customers to visit and wish to return to.
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+To achieve greater user experience I have improved on the coloration of the site opting for burgundy and ivory theme. This is not only to be gone with the original coloration of black, 
+white and yellow; which did not blend well and help to separate the content in a way that doesn't flow with the page; it was chosen to give the feel of a classical instrument and a piece
+of sheet music. This is to link the design to the product. 
 
-`python3 -m http.server`
+The navigation section of every page's core concept was designed to stick out from the rest of the page being easy to find and understand. When a user hover's the cursor over one of the buttons
+it fades into a lighter for two reasons. The first being to let the user know which button they are on, giving the user feedback on their actions. Making the website responsive to their actions. 
+The second being the maroon used is very dark so to help the fade stand out against the background it becomes lighter to make it easier to see. This also brightens up the page making it more 
+appealing.
 
-A blue button should appear to click: *Make Public*,
+On the orginial web page it has a carousel displaying off centred images without context. To improve on this aspect I used images covering the envire width of the slide this helps to show off
+various products the business sells in a cinematic way drawing the eye of the consumer. This is ideal as the slides show information on how the business operates. Displaying it an appealing 
+way catching the attention of the user.
 
-Another blue button should appear to click: *Open Browser*.
+At the bottom of index.html is an embedded view of the business as of Google Maps, this allows users to see almost first hand how the business looks and types of products that they sell. 
+It is also good for locating the business in person. This is something the original site seemed very dedicated to as it also used an embedded Google Maps view point in a well appealing way, 
+as well as with address used widely across pages, being included in header and footers along with giving physical directions to the business. I feel this information presented in this way 
+is not the ideal way of this doing this. As those who are not local would not understead the directions or need them in somecases, and those that are local would be aware of business considering 
+its location to other well known businesses. This is way I opted to go for a large map that users can use to look around the area to understand where it is along with zooming out to gather 
+directions.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+For the information provided on rental.html I didn't want to present it a mundane way where it was just text on a page separated by headings. Because of this the page includes alternating 
+visuals and informations on either side. This is to keep the user interested in the website, enjoying their experience. The images used are of bands, concerts and an orchestra the reason 
+for this is the business sells all the instruments involved in all three of these instances. This helps users to relate to the content. Whether they wish to be a pop star or a classical performer.
+When the screen size is of the size of small tablet or phone the alternation stops and instead goes down in rows presenting the information above the images to keep the core concept the page was
+given. 
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+Contact.html is very plain and simple being given a tranparent background with the input fields for the user's email an the message they wish to send. To make it more appealing for the user 
+a colourful background was added to help brighten up the page as well as break away from the usual colours of the website. The purpose of the transparent background on the contact form itself 
+is to allow the colour to shine through and help the two separate pieces appear as one. 
