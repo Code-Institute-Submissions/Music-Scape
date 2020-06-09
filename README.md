@@ -48,6 +48,8 @@ and click on the "latest products" to find they do not lead anyway. I was unable
 From this I can see that customers have no clear way of purchases items using the website. To combat this issue I will add links to the "latest products" section allowing the customer to 
 see the product's information and buy it.
 
+2. 
+
 ## Testing 
 
 1. View Product:
