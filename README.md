@@ -39,3 +39,34 @@ given.
 Contact.html is very plain and simple being given a tranparent background with the input fields for the user's email an the message they wish to send. To make it more appealing for the user 
 a colourful background was added to help brighten up the page as well as break away from the usual colours of the website. The purpose of the transparent background on the contact form itself 
 is to allow the colour to shine through and help the two separate pieces appear as one. 
+
+### User Stories
+
+1. Customer, I want to use the website to find a guitar that I wish to purchase. Loading up the webpage there is no clear tab for buying instruments. I scroll down on the "home" page 
+and click on the "latest products" to find they do not lead anyway. I was unable to buy a product on this website.
+
+From this I can see that customers have no clear way of purchases items using the website. To combat this issue I will add links to the "latest products" section allowing the customer to 
+see the product's information and buy it.
+
+## Testing 
+
+1. View Product:
+    1. Go to "Home" page
+    2. Scroll down to "latest products" to verify the images have displayed properly
+    3. Images have appear in a row with the same styling (success)
+    4. Appears carousel images have not display properly for an iOS device
+
+The latest products appeared correctly but the user found another issue during testing that on an iOS (phone) device the carousel final image violin.jpg did display on that device. 
+This lead to further testing.
+
+2. Carousel Image Display on different platforms:
+    1. Load website again on iOS phone device to ensure the problem persisted. 
+    2. It does. Load website on iOS tablet device to see if the problem is an isolated issue or persisted throughout iOS devices
+    3. It does. Load website on PC and test sizing of web page to ensure that isn't the reason why the bug was present.
+    4. This wasn't the case. Load website on an Android to see if the problem was a phone or tablet issue.
+    5. The problem wasn't present within an Android device. So it was decided this was an incompatibility with iOS devices in general.
+    6. Went through code to see if the file type was the source of the issue. All the images were jpegs.
+    7. To solve the issue a similar picture was chosen and tested in the same way to ensure the problem was no longer present.
+
+This was quite an unsual bug as it only persisted on iOS devices, and all of the file type were the same. However, it was an easy fix and the carousel now works on all platforms.
+
