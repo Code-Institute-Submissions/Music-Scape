@@ -31,7 +31,7 @@ its location to other well known businesses. This is way I opted to go for a lar
 directions.
 
 For the information provided on rental.html I didn't want to present it a mundane way where it was just text on a page separated by headings. Because of this the page includes alternating 
-visuals and informations on either side. This is to keep the user interested in the website, enjoying their experience. The images used are of bands, concerts and an orchestra the reason 
+visuals and information on either side. This is to keep the user interested in the website, enjoying their experience. The images used are of bands, concerts and an orchestra the reason 
 for this is the business sells all the instruments involved in all three of these instances. This helps users to relate to the content. Whether they wish to be a pop star or a classical performer.
 When the screen size is of the size of small tablet or phone the alternation stops and instead goes down in rows presenting the information above the images to keep the core concept the page was
 given. 
@@ -49,6 +49,29 @@ From this I can see that customers have no clear way of purchases items using th
 see the product's information and buy it.
 
 2. 
+
+## Features
+
+### Existing Features
+- Navigation - Allows the user to access the other pages of the website. The current page's button is disabled making it impossible to keep reloading the same page. 
+as screen size changes so does the arrangement of the buttons going from a row of 3 to on top of this other.
+- Carousel - Displays 3 images with various information. The navigation buttons allow the user to go back to a specific slide by using either the left and right arrows or the buttons 
+at the bottom of the slides.
+- Latest Products - This panel shows the latest products that the business is selling. This panel is displayed on most of the pages allowing easy access by the user to latest deals.
+These will updated as the business acquires new merchandice. The code is design in a way that these are easy to locate and alter as needs be.
+- About Us - Shows a summarised history and workings of the business. Shorted to just 6 paragraphs to keep the information concise and not allow it to overwhealm the user or the page.
+- Google Map - Lets the user see the shop "personally". Allowing them to look into the layout and what the shop offers. The map also be used to help locate the business allowing users to 
+visit the shop.
+- Rentals - The information displayed here is shown in 2 columns and 3 rows alternating the images and information. This is help add colour to the usual theme of the website. This helps to 
+draw the users eye and present the information in a fun way keeping their attention for longer. Rather than showing text on a screen which would making reading the information seem like a chore.
+- Contact Form - The form itself is very simple having only an email field annd a message field, as well as being given a black transparent background. To help make the form stand out a colourful
+background has been used. The purpose of the form is to allow users to email the business either with queries, compliments or complants. All of these can be used to improve the business, as well 
+as develop a healthy customer business relationship.
+- Footer - Placed at the bottom on the page it helps to section off the end of the content for the page to end. The same burgundy has been chosen to match the theme of the page. Within is 
+the address to help users visit the business in person, along with social media links to see the latest updates between the platforms.
+
+### Features Left to Implement
+- Latest Product Information Pages - 
 
 ## Testing 
 
