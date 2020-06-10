@@ -37,7 +37,7 @@ When the screen size is of the size of small tablet or phone the alternation sto
 given. 
 
 Contact.html is very plain and simple being given a tranparent background with the input fields for the user's email an the message they wish to send. To make it more appealing for the user 
-a colourful background was added to help brighten up the page as well as break away from the usual colours of the website. The purpose of the transparent background on the contact form itself 
+a classical background was added to help brighten up the page as well as break away from the usual colours of the website. The purpose of the transparent background on the contact form itself 
 is to allow the colour to shine through and help the two separate pieces appear as one. 
 
 ### User Stories
@@ -127,3 +127,29 @@ This lead to further testing.
 This was quite an unsual bug as it only persisted on iOS devices, and all of the file type were the same. However, it was an easy fix and the carousel now works on all platforms.
 
 ## Deployment
+To host the website I made use of Github as a hosting platform. To accomplish I had to link Github to Gitpod this is quite a simple process having me add Gitpod as a browser extention to 
+my browser of choice. From there I had create a repository then I can proceed to open it with Gitpod and begin to develop the code. After enough code has been written I can then host the 
+website from the settings options scrolling to the Github pages section choosing to host off of the master branch. This will then provide me a link to access the website from. 
+The project has no differences between the development and deployed versions, this is so it is easy to update and maintain in the future as both are carbon copies of each other. Therefore 
+do not contain different configuration files and run on the master branch provided by Github pages.
+
+In order to run the code locally you will need Github and the Gitpod browser extention from there you will need to access Github repositories and open it within Gitpod using the added options 
+from the extention. 
+
+## Credits
+### Content
+- All text used within this project was taken from https://www.stamfordmusicshop.co.uk
+### Media
+- All images used are images found within Google Images, all of which are labeled for commericial reuse. 
+    - e-guitar.jpg - https://medium.com/giglue/top-20-musical-instruments-you-can-easily-play-693f603a2bcf
+    - guitar.jpg - https://guitarsquid.com/best-classical-guitars-under-1000/
+    - violin.jpg - https://www.piqsels.com/en/public-domain-photo-sbrfv
+    - contact-banner.webp - https://www.wallpaperflare.com/musical-notes-music-score-composition-melody-brand-symbol-wallpaper-zrblq
+    - products-e-guitar.jpg - https://commons.wikimedia.org/wiki/File:Maton_electric_guitar_(1960s).jpg
+    - products-guitar.jpg - https://www.peakpx.com/439381/epiphone-spruce-top-acoustic-guitar-with-gray-capo
+    - products-keyboard.jpg - 
+    - products-violin.jpg - https://commons.wikimedia.org/wiki/File:German,_maple_Violin.JPG
+    - rental-band.jpg - https://www.wallpaperflare.com/band-in-rainbow-smoke-people-watching-music-band-during-nighttime-wallpaper-zhjwn
+    - rental-concert.jpg - https://www.publicdomainpictures.net/en/view-image.php?image=64321&picture=concert-with-purple-lights
+    - rental-orchestra.jpg - https://www.usafe.af.mil/News/Article-Display/Article/1993570/usafe-band-unites-us-ukrainian-armed-forces-through-music/
+### Acknowledgements
