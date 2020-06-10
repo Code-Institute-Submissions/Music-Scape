@@ -71,7 +71,38 @@ as develop a healthy customer business relationship.
 the address to help users visit the business in person, along with social media links to see the latest updates between the platforms.
 
 ### Features Left to Implement
-- Latest Product Information Pages - 
+- Latest Product Information Pages - These pages will have a full scale image of the product, followed by the history and details of the product. Underneath these columns will be the price 
+and an add to basket button. 
+- Basket - This feature will hold all of the products that the user wants to buy. Other than listing all of the products it will show the prices and total price of all the products. After all this 
+there will be an option to buy along with payment methods.
+- Products Page - This page would list all of the products categorised appropriately to make it easier for users to find the specific product they desire.
+- Product Pages - Similar to the latest products page these will house the information the user will need to decide whether or not to buy the product.
+- Search Bar - The advantage that this feature will bring is that users will be able to simply type the product that desire and be sent straight to it. Where the products page is a library of 
+the products the search bar is a chauffeur.
+
+## Technologies used
+- [HTML5](https://html.spec.whatwg.org/multipage/)
+    - The project uses **HTML5** for the purpose of adding content and structure to webpages.
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html)
+    - This project uses **CSS3** to style and position the content provided by **HTML5**.
+- [JQuery](https://jquery.com/)
+    - The use of **JQuery** was to help in manipulation of DOM, clearing up time which was better focus on other aspects of the project.
+- [Github](https://github.com/)
+    - **Github** was used as a hosting platform, as well as a backup for all the project's files.
+- [Gitpod](https://www.gitpod.io/)
+    - **Gitpod** provided ready to codecdev environment for the project to begin and come into to fruition.
+- [Bootstrap](https://getbootstrap.com/)
+    - The external library provided by **Bootstrap** was used to save time on styling, rather than making entirely bespoke **CSS3**.
+- [Google Fonts](https://fonts.google.com/)
+    - This was used to embed more type faces into the project, helping to use specific fonts rather than a rigid selection.
+- [Google Maps](https://www.google.com/maps)
+    - **Google Maps** was used to embed a map and first person perpective of the business.
+- [Font Awesome 6](https://fontawesome.com/6?next=%2F)
+    - This allowed me to add icons that acted the same as text, allowing for easy styling.
+- [Hover.css v2](https://ianlunn.github.io/Hover/)
+    - This allows for easy to embed hover css styles, specifically I used the fade effect for the navigation buttons.
+- [Lucidchart](https://www.lucidchart.com/pages/landing?utm_source=google&utm_medium=cpc&utm_campaign=en_tier1_desktop_branded_x_exact_lucidchart&km_CPC_CampaignId=1490375427&km_CPC_AdGroupID=55688909017&km_CPC_Keyword=lucid%20chart&km_CPC_MatchType=e&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=354596043007&km_CPC_TargetID=aud-837074142685:kwd-55720648523&km_CPC_Country=1007106&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&mkwid=sLeEvFI2m_pcrid_354596043007_pkw_lucid%20chart_pmt_e_pdv_c_slid__pgrid_55688909017_ptaid_aud-837074142685:kwd-55720648523_&gclid=Cj0KCQjwiYL3BRDVARIsAF9E4GdqvRjV09A_IUOFDAOM8XrGq3S-GTkGRaP5rSVlxV8SZBaUcOX5FvkaAm-PEALw_wcB)
+    - The purpose of **Lucidchart** within the project was to make clean and easy to understand wireframes.
 
 ## Testing 
 
@@ -95,3 +126,4 @@ This lead to further testing.
 
 This was quite an unsual bug as it only persisted on iOS devices, and all of the file type were the same. However, it was an easy fix and the carousel now works on all platforms.
 
+## Deployment

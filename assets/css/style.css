@@ -224,20 +224,7 @@ img{
     padding: 50px 0;
 }
 
-.contact-form input{
-    margin-bottom: 15px;
-}
-
-#email,
-#message{
-    width: 200px;
-}
-
 .contact-form {
-    margin-right: 10px;
-}
-
-#submit{
     margin-right: 10px;
 }
 
