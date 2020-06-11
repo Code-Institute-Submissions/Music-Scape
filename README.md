@@ -120,7 +120,22 @@ the products the search bar is a chauffeur.
 The latest products appeared correctly but the user found another issue during testing that on an iOS (phone) device the carousel final image violin.jpg did display on that device. 
 This lead to further testing.
 
-2. Carousel Image Display on different platforms:
+2. Carousel Functionally
+    1. Load "Home" page.
+    2. Scroll down to carousel.
+    3. Check auto scrolling works as expected.
+    4. Carousel images scroll right every few seconds this is expected functionality.
+    5. Click right button.
+    6. Images scroll right.
+    7. Click left button.
+    8. Images scroll left.
+    9. Test 1, 2, 3 buttons
+    10. Buttons 1, 2, 3 do not appear to have any functionality.
+
+After looking into the code it appears the code was not embedded correctly, after following the instructions the code has been embedded correctly and the functionality of the carousel has works 
+as expected.
+
+3. Carousel Image Display on different platforms:
     1. Load website again on iOS phone device to ensure the problem persisted. 
     2. It does. Load website on iOS tablet device to see if the problem is an isolated issue or persisted throughout iOS devices
     3. It does. Load website on PC and test sizing of web page to ensure that isn't the reason why the bug was present.
@@ -130,6 +145,15 @@ This lead to further testing.
     7. To solve the issue a similar picture was chosen and tested in the same way to ensure the problem was no longer present.
 
 This was quite an unsual bug as it only persisted on iOS devices, and all of the file type were the same. However, it was an easy fix and the carousel now works on all platforms.
+
+4. Ensure Social Links Load Correctly
+The icons for "Social Links" have been taken from Font Awesome the test is to ensure the embedding process has been implemented correctly.
+    1. Load all pages and ensure the "Social Links" appear at the bottom of all pages.
+    2. The "Footer" has been implemented successfully along with the "Address" and "Social" sections.
+    3. All social links appear correctly except the ebay icon.
+    4. The link appears to work correctly, opening at the correct destination.
+
+This test was unsuccessful as the ebay icon did not appear. After researching it appears that an old link was embedded within the website causing the newer to not appear. 
 
 ## Deployment
 To host the website I made use of Github as a hosting platform. To accomplish I had to link Github to Gitpod this is quite a simple process having me add Gitpod as a browser extention to 
