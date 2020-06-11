@@ -143,7 +143,6 @@ img{
     margin-bottom: -5px
 }
 
-
 /*------------------------------- Footer*/
 
 .container-fluid{
@@ -216,16 +215,12 @@ img{
 
 .contact-form{
     text-align: center;
-    padding: 50px;
+    padding: 100px 0;
 }
 
 #contact-us-form{
     color: #fffef2;
-    padding: 50px 0;
-}
-
-.contact-form {
-    margin-right: 10px;
+    padding: 100px;
 }
 
 .container{
@@ -233,10 +228,14 @@ img{
     border-radius: 5px;
     width: auto;
     max-width: 600px;
+    z-index: 1;
 }
 
 .contact-banner{
     background-image: url("../images/contact/contact-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 /*------------------------------- Media Queries*/
@@ -282,5 +281,9 @@ img{
     padding: 0;
     height: 250px;
     margin-bottom: 0;
+    }
+
+    .contact-form{
+        padding: 0;
     }
 }
