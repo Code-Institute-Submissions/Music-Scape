@@ -147,9 +147,17 @@ from the extention.
     - contact-banner.webp - https://www.wallpaperflare.com/musical-notes-music-score-composition-melody-brand-symbol-wallpaper-zrblq
     - products-e-guitar.jpg - https://commons.wikimedia.org/wiki/File:Maton_electric_guitar_(1960s).jpg
     - products-guitar.jpg - https://www.peakpx.com/439381/epiphone-spruce-top-acoustic-guitar-with-gray-capo
-    - products-keyboard.jpg - 
+    - products-keyboard.jpg - https://www.flickr.com/photos/30478819@N08/31659976968
     - products-violin.jpg - https://commons.wikimedia.org/wiki/File:German,_maple_Violin.JPG
     - rental-band.jpg - https://www.wallpaperflare.com/band-in-rainbow-smoke-people-watching-music-band-during-nighttime-wallpaper-zhjwn
     - rental-concert.jpg - https://www.publicdomainpictures.net/en/view-image.php?image=64321&picture=concert-with-purple-lights
     - rental-orchestra.jpg - https://www.usafe.af.mil/News/Article-Display/Article/1993570/usafe-band-unites-us-ukrainian-armed-forces-through-music/
 ### Acknowledgements
+Throughout the project I was inspired by a handful of sources to help shape the finished product. These included:-
+- [Currys](https://www.currys.co.uk/gbuk/index.html) for the layout of the latest products section of index.html.
+- [Food Station](https://streetfoodstationstamford.co.uk/) with thier use of embeded Google Maps showing the location of the business, along with the style.
+- [Stamford Music Shop](https://www.stamfordmusicshop.co.uk/) for the idea of the first person perpective Google Map. As well as the inspiration to make an improved version of their website.
+- [Apple (specifically the airpods pro page)](https://www.apple.com/uk/airpods-pro/) for introducing me to a much more interesting way to present information. I used this for the information 
+contained within rental.html.
+- [CodeInstitute](https://courses.codeinstitute.net) For both the social links and contact form. The code for these sections were bespoke but the design concepts were taken from the lessons 
+provided for Whiskey Drop, as well as the Resume websites respectively. 
