@@ -48,7 +48,12 @@ and click on the "latest products" to find they do not lead anyway. I was unable
 From this I can see that customers have no clear way of purchases items using the website. To combat this issue I will add links to the "latest products" section allowing the customer to 
 see the product's information and buy it.
 
-2. 
+2. Customer, I want to scope out the new website to see if it deserves my interest. Loaded up "home" page and was impressed by the professional presentation. Continued to the "rentals" page and 
+enjoyed the splash of colour involved alongside the information provided. Lastly went to the "contact" page and was overwhealmed by the out of character presentation revealed by the rest of the site. 
+Having too much colour, rather then be eye catching it demands attention and is "too in your face". Overall enjoyed most of the website but suggest a more subtle contact image.
+
+In light of this criticism the background image for contact.html will be changed to a musical score to stay within the classical theme of the website. Helping it better suit the over experience of 
+the website.
 
 ## Features
 
