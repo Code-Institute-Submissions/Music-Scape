@@ -149,7 +149,7 @@ from the extention.
     - e-guitar.jpg - https://medium.com/giglue/top-20-musical-instruments-you-can-easily-play-693f603a2bcf
     - guitar.jpg - https://guitarsquid.com/best-classical-guitars-under-1000/
     - violin.jpg - https://www.piqsels.com/en/public-domain-photo-sbrfv
-    - contact-banner.webp - https://www.publicdomainpictures.net/en/view-image.php?image=280708&picture=music-score-sheet-vintage
+    - contact-banner.webp - https://serenademagazine.com/wp-content/uploads/2017/03/music-sheet-1327003_1920.jpg
     - products-e-guitar.jpg - https://commons.wikimedia.org/wiki/File:Maton_electric_guitar_(1960s).jpg
     - products-guitar.jpg - https://www.peakpx.com/439381/epiphone-spruce-top-acoustic-guitar-with-gray-capo
     - products-keyboard.jpg - https://www.flickr.com/photos/30478819@N08/31659976968
