@@ -1,4 +1,4 @@
-# Stamford Music Shop
+# Music Scape
 
 This website is to help improve on an already existing website for a shop that is local where I live. For the sake of copyright names have been changed and text reworded. 
 The purpose of this is to help advertise the business more effectively with improved visuals, better organisation of information and finally a simpler less cramped interface for
