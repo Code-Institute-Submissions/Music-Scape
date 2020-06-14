@@ -27,6 +27,7 @@ h6{
 .wrapper-red{
     background-color: #951B06;
     margin: 0; 
+    padding: 0 10%;
 }
 
 .wrapper-ivory{
@@ -39,7 +40,6 @@ h6{
 
 .logo {
     margin-top: 10px;
-    margin-bottom: 20px;
     font-family: "Playfair Display", sans-serif;
 }
 
@@ -61,24 +61,25 @@ h6{
     }
 
 #nav{
-    margin: 0 10%;
-    width: 80%;
+    width: 100%;
+    margin: 0;
 }
 
 #nav li{
     font-size: 14px;
+    
 }
 
 .menuitem{
-    height: 60px;
     text-align: center;
     background-color: #951B06;
+    
 }
 
 .menuitem a{
     width: 100%;
-    padding-top: 10px;
     text-decoration: none;
+    padding: 10px 0;
     font-size: 20px;
     color: #fff;
     height: 60px;
@@ -140,20 +141,18 @@ img{
 .google-map-preview iframe{
     width: 100%;
     height: 500px; 
-    margin-bottom: -10px
+    margin: -10px;
 }
 
 /*------------------------------- Footer*/
 
-.container-fluid{
+.footer{
     margin: 0;
     padding: 20px 10%;
     text-align: center;
 }
 
-.container-fluid p{
-    font-weight: 600;
-}
+
 
 .footer-heading{
     margin-left: 0;
@@ -176,6 +175,10 @@ img{
 .social-links i:hover{
     color: #bf260b;
 } 
+
+.address p{
+    color: #fff;
+}
 
 /*------------------------------- Rental*/
 
@@ -238,15 +241,26 @@ img{
     width: 100%;
 }
 
+.btn-danger{
+    background: #951B06;
+    border-color: #951B06;
+}
+
+.btn-danger:hover{
+    background: #bf260b;
+    border-color: #bf260b;
+}
+
 /*------------------------------- Media Queries*/
 
 @media (max-width: 767px){
 
-    .wrapper-ivory{
-    width: 100%;
-    background-color: #fffef2; 
+    .wrapper-ivory,
+    .wrapper-red{
     padding: 0;
     }
+
+
 
     .logo{
         text-align: center;
@@ -260,6 +274,10 @@ img{
     height: 250px;
     width: 100%; 
     padding: 0;
+    }
+
+    .latest-products img{
+        padding: 0;
     }
 
     .bio p{

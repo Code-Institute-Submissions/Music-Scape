@@ -55,6 +55,23 @@ Having too much colour, rather then be eye catching it demands attention and is 
 In light of this criticism the background image for contact.html will be changed to a musical score to stay within the classical theme of the website. Helping it better suit the over experience of 
 the website.
 
+3. Customer, I wish to visit the business in person so am using the website to find the address. After loading the "home" page I looked for a while to discover that the address was at the bottom 
+of the page. Which was wasy to see from the constrasting colour of the title but I struggled to read the actual address as it blends into the red.
+
+Now that it is known that the address text is hard to read it will changed to same as the address to providea better contrast of colours to allow the user to read the text easily.
+
+4. Customer, I have visited the website to send a message using the "contact us" page. After loading up the "home" page and progressing onto the "contact us" page I am disppointed with the default 
+button that is used with the form. This is very out of theme with the rest of the web pages. However, the button does work sending me to my email with the recipient field already filled in.
+
+After looking into the comment it is true that a very basic button has been used for the sake simplicity. The issue with this is as the comment says it breaks the flow of the already established 
+styling conventions. To combat this a styled button will be used in the place of the default styling.  
+
+5. Customer, viewing the mobile view of the webpage I want to check out the latest products section of the website and see the product's information page. Loading the "home" page the latest 
+products section is easy to navigate to. The section is easy to find but the images themselves don't appear to link to any other pages, as well as the images "seem to fall off the page".
+
+The images do not have links to the products information pages as this is a feature to implemented in the future. But it is true the images appear to fall off the page of the mobile view. Some 
+padding tweaks will be made to tighten up the images making them feel firmly on the page.
+
 ## Features
 
 ### Existing Features
