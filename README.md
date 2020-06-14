@@ -172,6 +172,10 @@ The icons for "Social Links" have been taken from Font Awesome the test is to en
 
 This test was unsuccessful as the ebay icon did not appear. After researching it appears that an old link was embedded within the website causing the newer to not appear. 
 
+5. Occurs When Swapping Between Desktop and Phone Display Mode Within Developer Tools
+While swapping between desktop and phone display modes in Google developer tools a strange margin on the right appears it is unknown way this happens. However, during standard use of the website 
+this will not occur and therefore will not be issue to the standard user so no time or resources will be spent to solve the problem.
+
 ## Deployment
 To host the website I made use of Github as a hosting platform. To accomplish I had to link Github to Gitpod this is quite a simple process having me add Gitpod as a browser extention to 
 my browser of choice. From there I had create a repository then I can proceed to open it with Gitpod and begin to develop the code. After enough code has been written I can then host the 
