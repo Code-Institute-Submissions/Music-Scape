@@ -72,6 +72,9 @@ products section is easy to navigate to. The section is easy to find but the ima
 The images do not have links to the products information pages as this is a feature to implemented in the future. But it is true the images appear to fall off the page of the mobile view. Some 
 padding tweaks will be made to tighten up the images making them feel firmly on the page.
 
+6. In an isolated incident on an iOS device the carousel flickered between the first and last image after clicking the "next" button it is unknown why this happens, as the code is taken from 
+Bootstrap and works well majority of the time I do not want to tamper with it in the event the code's functionalityis affected even more.
+
 ## Features
 
 ### Existing Features
